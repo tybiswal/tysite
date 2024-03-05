@@ -8,18 +8,17 @@ const pageStyles = {
 const headingStyles = {
   marginTop: 0,
   marginBottom: 64,
-  maxWidth: 320,
 }
 const headingAccentStyles = {
-  color: "#663399",
+  color: "#54a85f",
 }
 const paragraphStyles = {
   marginBottom: 48,
 }
 const codeStyles = {
-  color: "#8A6534",
+  color: "#54a85f",
   padding: 4,
-  backgroundColor: "#FFF4DB",
+  backgroundColor: "#eeeeee",
   fontSize: "1.25rem",
   borderRadius: 4,
 }
@@ -35,7 +34,7 @@ const listItemStyles = {
 }
 
 const linkStyle = {
-  color: "#8954A8",
+  color: "#54a85f",
   fontWeight: "bold",
   fontSize: 16,
   verticalAlign: "5%",
@@ -58,7 +57,7 @@ const descriptionStyle = {
 const docLink = {
   text: "Documentation",
   url: "https://www.gatsbyjs.com/docs/",
-  color: "#8954A8",
+  color: "#54a85f",
 }
 
 const badgeStyle = {
@@ -127,13 +126,11 @@ const IndexPage = () => {
   return (
     <main style={pageStyles}>
       <h1 style={headingStyles}>
-        Congratulations
-        <br />
-        <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
+        Tyagadipta Biswal<br /><span style={headingAccentStyles}>Engineer & Designer</span>
       </h1>
       <p style={paragraphStyles}>
-        Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
-        update in real-time. 😎
+        I'm trying to edit <code style={codeStyles}>src/pages/index.js</code> to get this page
+        to update in real-time. I am clearly struggling here!
       </p>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
