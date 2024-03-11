@@ -1,17 +1,13 @@
-import * as React from "react"
+import * as React from 'react'
+import Layout from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <main>
-      <h1>Tyagadipta Biswal - Engineer & Designer</h1>
-      <p>
-        I'm trying to edit this page
-        to update in real-time. I am clearly struggling here!
-      </p>
-    </main>
+    <Layout pageTitle="Home Page">
+      <p>I'm making this by following the immensely useful Gatsby Tutorial.</p>
+    </Layout>
   )
 }
 
-export default IndexPage
-
 export const Head = () => <title>Home Page</title>
+export default IndexPage
